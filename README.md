@@ -9,6 +9,7 @@ Portable Python application to merge all PDFs from a folder only using command l
   5. AutoOpen [1/0]
 
 MergePDF.exe SourcePath DestinationPath Filename autoDelete AutoOpen
-MergePDF.exe "C:\OriginalPDFs" "C:\MergedPDF" "MergedPDF" 1 0 
+
+Example: MergePDF.exe "C:\OriginalPDFs" "C:\MergedPDF" "MergedPDF" 1 0 
 
 The SourcePath must not be the same as the DestinationPath
